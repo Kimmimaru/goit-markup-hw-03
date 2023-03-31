@@ -1,0 +1,320 @@
+body {
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+}
+
+
+.header {
+    width: 100%;
+}
+  
+
+.link {
+    text-decoration: none;
+    color: #404bbf
+}
+
+
+.link:hover {
+    text-decoration: none;
+    color: #404bbf
+}
+
+
+.link:focus {
+    text-decoration: none;
+    color: #404bbf
+}
+
+
+.list {
+    list-style: none;
+    font-style: normal;
+}
+
+
+.logo > .link {
+    color: #4d5ae5;
+}
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+}
+
+
+.logo-head {
+    color:#2e2f42;
+}
+
+
+.logo-foot {
+    color: #f4f4fd;
+}
+
+
+.navi {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42
+    
+}
+
+
+.addr {
+    font-style: normal;
+    list-style: none;
+}
+
+
+.addr-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455
+    
+}
+
+
+
+.sektion-one {
+    background-color: #2e2f42;
+    width: 100%;
+}
+
+
+.title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+
+
+.butt {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.butt:is(:hover, :focus) {
+    background-color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.sektion-two {
+    background-color: #FFFFFF;
+}
+
+
+.sektion-two-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+
+.list-par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+.sektion-three {
+    background-color: #FFFFFF;
+}
+
+
+.sektion-three-title  {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+
+.sektion-three-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 300px;
+}
+
+
+.sektion-four {
+    background-color: #F4F4FD;
+
+}
+
+
+.sektion-four-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+
+.li-four {
+    background-color: #FFFFFF;
+
+}
+
+
+.li-four-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
+.li-four-par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+
+.footer {
+    background-color:#2e2f42;
+}
+
+
+
+
+
+.portfolio-header-nav-li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+
+.portfolio-header-addr-li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+
+
+.portfolio-header-nav-li > .link {
+    color: #2e2f42;
+}
+
+
+.portfolio-header-nav-li > .link:hover {
+    color: #404bbf;
+}
+
+
+.portfolio-header-nav-li > .link:focus {
+    color: #404bbf;
+}
+
+
+.portfolio-header-addr-li > .link {
+    color: #434455;
+}
+
+
+.portfolio-header-addr-li > .link:hover {
+    color: #404bbf;
+}
+
+
+.portfolio-header-addr-li > .link:focus {
+    color: #404bbf;
+}
+
+
+.portfolio-butt {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+
+.portfolio-butt:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
+.portfolio-butt:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+
+.portfolio-list-par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+:root {
+}
