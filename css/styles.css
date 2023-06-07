@@ -93,7 +93,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-    
+    margin-right: 76px;
 }
 
 
@@ -131,6 +131,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    padding: 24px 0;
     
 }
 
@@ -234,6 +235,7 @@ body {
 .sektion-two>.container>.list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 
@@ -244,8 +246,22 @@ body {
 }
 
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 .li-t {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 
 
